@@ -8,7 +8,7 @@ def line(katz_deli)
   else
 
 
-    katz_deli.each_with_index do |customer, index|
+    katz_deli.map do |customer, index|
 
       "The line is currently: #{index}. #{customer}."
 end
